@@ -50,7 +50,7 @@ bool isSymmetric(Node* tree) {
     if (!tree) return true;
     if (!tree->left && !tree->right) return true;
     return helperFunction(tree->left, tree->right);
-    return false;
+    
 }
 
 void getInOrder(Node* tree , std::vector<int>& res)
